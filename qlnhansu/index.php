@@ -1,5 +1,4 @@
 <?php
-// Câu 2 + 3: trang frontend hiển thị bảng Users (responsive)
 require 'config.php';
 $users = $pdo->query('SELECT * FROM Users ORDER BY admin_id')->fetchAll(PDO::FETCH_ASSOC);
 ?>
