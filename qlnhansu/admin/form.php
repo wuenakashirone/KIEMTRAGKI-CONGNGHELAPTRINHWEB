@@ -1,5 +1,4 @@
 <?php
-// Thêm mới (không có ?id) hoặc Sửa (có ?id)
 require '../config.php';
 $id = (int)($_GET['id'] ?? 0);
 $row = ['admin_email' => '', 'images' => ''];
