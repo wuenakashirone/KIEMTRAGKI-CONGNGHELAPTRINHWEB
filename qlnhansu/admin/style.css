@@ -1,0 +1,27 @@
+body { background: #f4f6fb; min-height: 100vh; }
+.topbar {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%);
+  color: #fff; padding: 28px 0 70px;
+}
+.topbar h2 { font-weight: 700; margin: 0; }
+.topbar .sub { opacity: .85; font-size: .95rem; }
+.btn-soft { background: rgba(255,255,255,.18); color: #fff; border: 1px solid rgba(255,255,255,.35); border-radius: 10px; }
+.btn-soft:hover { background: rgba(255,255,255,.3); color: #fff; }
+.btn-add { background: #fff; color: #4f46e5; font-weight: 600; border: 0; border-radius: 10px; }
+.btn-add:hover { background: #eef2ff; color: #4338ca; }
+.main-card { margin-top: -48px; border: 0; border-radius: 16px; box-shadow: 0 10px 30px rgba(30,27,75,.12); overflow: hidden; }
+.main-card .table { margin: 0; }
+.main-card thead th { background: #f8f9ff; color: #4b5563; font-weight: 600; font-size: .85rem; text-transform: uppercase; letter-spacing: .03em; border-bottom: 1px solid #e5e7eb; padding: 14px 16px; }
+.main-card td { padding: 14px 16px; vertical-align: middle; }
+.avatar { width: 46px; height: 46px; object-fit: cover; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.avatar-ph { width: 46px; height: 46px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.id-badge { background: #eef2ff; color: #4338ca; border-radius: 8px; padding: 4px 10px; font-weight: 600; font-size: .85rem; }
+.btn-edit { background: #fef3c7; color: #92400e; border: 0; border-radius: 8px; font-weight: 500; }
+.btn-edit:hover { background: #fde68a; color: #78350f; }
+.btn-del { background: #fee2e2; color: #b91c1c; border: 0; border-radius: 8px; font-weight: 500; }
+.btn-del:hover { background: #fecaca; color: #991b1b; }
+.form-control { border-radius: 10px; padding: 11px 14px; }
+.form-control:focus { border-color: #7c3aed; box-shadow: 0 0 0 .2rem rgba(124,58,237,.2); }
+.btn-main { border: 0; border-radius: 10px; padding: 11px 22px; font-weight: 600; color: #fff; background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.btn-main:hover { color: #fff; box-shadow: 0 8px 18px rgba(79,70,229,.4); }
+@media (max-width: 576px) { .topbar { padding-bottom: 60px; } .hide-sm { display: none; } }
