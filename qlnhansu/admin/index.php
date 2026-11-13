@@ -1,5 +1,4 @@
 <?php
-// Câu 4: backend - danh sách + nút Sửa / Xóa
 require '../config.php';
 $users = $pdo->query('SELECT * FROM Users ORDER BY admin_id')->fetchAll(PDO::FETCH_ASSOC);
 ?>
