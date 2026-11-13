@@ -9,9 +9,3 @@ CREATE TABLE IF NOT EXISTS Users (
   PRIMARY KEY (admin_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Câu 1: thêm dữ liệu vào bảng Users
-INSERT INTO Users (admin_email, admin_password, images) VALUES
-('nguyenvana@gmail.com', '123456', ''),
-('tranthib@gmail.com',   '123456', ''),
-('lequangc@gmail.com',   '123456', ''),
-('phamthid@gmail.com',   '123456', '');
